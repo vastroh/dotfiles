@@ -1,14 +1,20 @@
 {
+    "code": "code",
+    "dbeaver": "database",
+    "Postman": "user-astronaut",
+
     "firefox": "firefox",
     "chromium-browser": "chrome",
     "chrome": "chrome",
     "google-chrome": "chrome",
+
     "x-terminal-emulator": "terminal",
-    "thunderbird": "envelope",
-    "jetbrains-idea-ce": "edit",
-    "nautilus": "folder-open",
-    "clementine": "music",
+
+    "pcmanfm": "folder",
+
     "vlc": "play",
     "signal": "comment",
+    "discord": "discord",
+
     "_no_match": "terminal"
 }
