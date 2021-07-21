@@ -98,17 +98,14 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-;format-prefix-underline = ${colors.secondary}
 
-label-layout = %layout%
-;label-layout-underline = ${colors.secondary}
+label-layout = %layout% %icon%
 
-;label-indicator-padding = 2
-;label-indicator-margin = 1
 label-indicator-padding = 2
 label-indicator-margin = 2
 label-indicator-background = ${colors.secondary}
-;label-indicator-underline = ${colors.secondary}
+
+layout-icon-0 = ru;
 
 [module/filesystem]
 type = internal/fs
@@ -410,14 +407,14 @@ adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+;format-charging-underline = #ffb52a
 
 format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+;format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -445,8 +442,8 @@ thermal-zone = 0
 
 ; Base temperature for where to start the ramp (in degrees celsius)
 ; Default: 0
-base-temperature = 20
-warn-temperature = 55
+base-temperature = 30
+warn-temperature = 60
 
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
