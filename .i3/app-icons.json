@@ -16,5 +16,5 @@
     "signal": "comment",
     "discord": "discord",
 
-    "_no_match": "terminal"
+    "_no_match": "."
 }
