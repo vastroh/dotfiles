@@ -293,6 +293,7 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id exec i3-workspace-names-daemon --verbose &
 # Монитор
 exec_always --no-startup-id exec ~/.screenlayout/display_config.sh
+exec_always --no-startup-id discord
 
 #exec --no-startup-id nitrogen --restore; sleep 1; picom -b
 #exec --no-startup-id manjaro-hello
