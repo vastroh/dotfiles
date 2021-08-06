@@ -1,6 +1,7 @@
 {
     "code": "code",
     "dbeaver": "database",
+    "MongoDB Compass": "database",
     "Postman": "user-astronaut",
 
     "firefox": "firefox",
@@ -10,10 +11,11 @@
 
     "x-terminal-emulator": "terminal",
 
+    "alacritty": "terminal",
+
     "pcmanfm": "folder",
 
     "vlc": "play",
-    "signal": "comment",
     "discord": "discord",
 
     "_no_match": "."

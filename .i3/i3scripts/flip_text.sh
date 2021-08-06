@@ -6,4 +6,3 @@ xsel | sed "y/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ[]{};':\",.\/<
 sleep 0.1s
 xdotool key Shift+Insert
 sleep 0.1s
-# xdotool key Caps_Lock
