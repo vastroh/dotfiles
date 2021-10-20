@@ -198,7 +198,8 @@ format-prefix-foreground = ${colors.foreground-alt}
 ;   <bar-load>
 ;   <ramp-load>
 ;   <ramp-coreload>
-format = <label> <ramp-coreload>
+format = <label>
+ ;<ramp-coreload>
 
 ; Available tokens:
 ;   %percentage% (default) - total cpu load averaged over all cores

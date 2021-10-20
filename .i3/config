@@ -52,7 +52,9 @@ exec setxkbmap "us,ru" ",winkeys" "grp:win_space_toggle" &
 #bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 exec --no-startup-id start-pulseaudio-x11
 exec --no-startup-id pa-applet
+exec ~/.i3/prepare.sh
 bindsym $mod+Ctrl+m exec pavucontrol
+
 
 ################################################################################################
 
@@ -192,7 +194,7 @@ assign [class="Dbeaver"] number $ws2
 assign [class="MongoDB Compass"] number $ws2
 assign [class="chrome"] number $ws3
 assign [class="firefox"] number $ws5
-assign [class="Discord"] number $ws8
+assign [class="discord"] number $ws8
 assign [class="Postman"] number $ws8
 
 # Open specific applications in floating mode
@@ -286,7 +288,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 60 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 # Иконки
