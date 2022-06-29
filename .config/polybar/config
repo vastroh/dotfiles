@@ -436,8 +436,8 @@ thermal-zone = 0
 
 ; Base temperature for where to start the ramp (in degrees celsius)
 ; Default: 0
-base-temperature = 30
-warn-temperature = 60
+base-temperature = 50
+warn-temperature = 70
 
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
