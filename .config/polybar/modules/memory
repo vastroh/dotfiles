@@ -1,0 +1,26 @@
+[module/memory]
+type = internal/memory
+interval = 5
+format-prefix = " "
+format = <label> <bar-used>
+format-prefix-foreground = ${colors.foreground-alt}
+
+label = %gb_used% | %percentage_used%%
+
+; Only applies if <bar-used> is used
+bar-used-indicator =
+bar-used-width = 100
+bar-used-foreground-0 = #55aa55
+bar-used-foreground-1 = #557755
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-fill = ▐
+bar-used-empty = ▐
+bar-used-empty-foreground = #444444
+
+;warn
+warn-percentage = 80
+format-warn-prefix = " "
+format-warn-prefix-foreground = ${colors.alert}
+format-warn = <label-warn> <bar-used>
+label-warn = %gb_used% | %percentage_used%%

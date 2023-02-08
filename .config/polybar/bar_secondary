@@ -1,0 +1,9 @@
+
+
+[bar/secondary]
+
+inherit = bar/base
+
+monitor = ${env:MONITOR:DP-1}
+
+modules-right = xkeyboard cpu temperature memory pulseaudio date

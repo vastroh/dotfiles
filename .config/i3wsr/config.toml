@@ -1,0 +1,19 @@
+[icons]
+
+Code = "󰅱"
+TelegramDesktop = ""
+URxvt = ""
+Google-chrome = ""
+firefox = ""
+DBeaver = ""
+discord = ""
+Postman = ""
+Steam = ""
+
+[general]
+separator = " | "
+wm_property = "class"
+[options]
+remove_duplicates = true
+no_names = false
+no_icon_names = true

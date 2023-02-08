@@ -1,0 +1,15 @@
+[module/cpu]
+type = internal/cpu
+interval = 2
+
+label = %percentage%%
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format = <label>
+
+; warn
+warn-percentage = 80
+format-warn-prefix = " "
+format-warn-prefix-foreground = ${colors.alert}
+format-warn = <label-warn>

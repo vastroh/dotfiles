@@ -1,0 +1,9 @@
+[bar/primary]
+
+inherit = bar/base
+
+monitor = ${env:MONITOR:DP-4}
+
+modules-left = powermenu i3
+modules-center = xwindow
+modules-right = xkeyboard pulseaudio date
